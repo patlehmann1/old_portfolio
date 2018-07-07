@@ -1,9 +1,84 @@
-.big_box {
-    height: 200px;
-    width: 75%;
-    background-color: blue;
-    border: 4px dotted green;
-    border-radius: 30px;
-    padding: 30px 50px;
-    text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Jura);
+
+nav {
+  background-color: whitesmoke;
+}
+
+body {
+  background-color:#205761;
+  font-family: Jura;
+}
+
+#whatIdo {
+  padding: 20px 0px;
+}
+
+
+.text-top {
+  font-family: jura;
+  text-align: left;
+  border-bottom: 2px solid #00507f;
+  background-color: whitesmoke;
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+#content-area {
+  background-color:whitesmoke;
+}
+
+.page-top {
+  border-bottom: 3px solid black;
+}
+
+.headshot {
+  border-radius: 10px;
+}
+
+h1, h2 {
+  color: #0081cc;
+}
+
+p{
+  color:#0081cc;
+  line-height: 1.6;
+}
+
+.headshotarea {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.thumbnailpic{
+  padding: 10px 0px;
+}
+
+.portfolio {
+
+  margin:10px;
+  border: 3px solid #00507f;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#connectMe {
+  padding: 50px 0px;
+  text-align: center;
+}
+
+#ghbutton, #linkedinbutton {
+  margin-bottom: 10px;
+}
+
+#twitbutton {
+  margin-bottom: 40px;
+}
+
+.nav-item {
+
 }

@@ -1,20 +1,113 @@
-<!DOCTYPE <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>GitHub Repository Site</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
-</head>
-<body>
 
-    <div>
-        <p>Hello, welcome to my GitHub respository site.</p>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patrick Lehmann- Web Development Professional</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container" id="content-area">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand text-primary" href="#">PWL</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active text-primary" href="#my-headshot">About
+                        <span class="sr-only text-primary">(current)</span>
+                    </a>
+                    <a class="nav-item nav-link text-primary" href="#PortHeading">Portfolio</a>
+                    <a class="nav-item nav-link text-primary" href="#connectMe">Connect</a>
+                </div>
+            </div>
+        </nav>
+        <div class="row text-center">
+            <div class="col-sm-12 col-lg-12 headshotarea" id="my-headshot">
+                <img class="headshot" src="./assets/images/headshot.jpg"></img>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-12" id="about-area">
+                <h2 class="my-name text-center"><strong> Patrick W. Lehmann </strong></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-sm-12">
+                <h3 class="text-center text-primary"> Web Development - Software Development - Web Design </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <p class="bio-pl text-justify"> Full stack web development professional with design experience, devoted to implementing best practices and
+                    ensuring quality code. Originally from the Long Island, New York area, Patrick strives to be a well known
+                    name in the development community of Central Virginia.
+                </p>
+            </div>
+        </div>
+
+
+        <h2 class="about-me" id="PortHeading">Portfolio</h2>
+        <div class="row text-center" id="portthumb">
+            <div class="col col-lg-4 col-sm-12">
+                <a href="https://patlehmann1.github.io/api-site">
+                    <img class="thumbnailpic" href="https://patlehmann1.github.io/api-site" src="assets/images/api-site.jpg" style="width:300px;height:250px;"><br> Food and Drink GIF's</a>
+            </div>
+            <div class="col col-lg-4 col-sm-12">
+                <a href="https://patlehmann1.github.io/unit-4-game">
+                    <img class="thumbnailpic" src="assets/images/crystals.jpg" style="width:300px;height:250px;"><br> Crystals Collector</a>
+            </div>
+            <div class="col col-lg-4 col-sm-12">
+                <a href="https://patlehmann1.github.io/train_times">
+                    <img class="thumbnailpic" src="assets/images/train_times.jpg" style="width:300px;height:250px;">
+                    <br> Train Time Calculator 
+                </a>
+            </div>
+            <div class="col col-lg-4 col-sm-12">
+                <a href="https://patlehmann1.github.io/triviagame">
+                    <img class="thumbnailpic" src="assets/images/World_Cup.jpg" style="width:300px;height:250px;"><br>
+                     World Cup Trivia </a>
+                </a>
+            </div>
+            <div class="col col-lg-4 col-sm-12">
+                <a href="https://mstig.github.io/Project-One">
+                    <img class="thumbnailpic" src="assets/images/musicSite.jpg" style="width:300px;height:250px;"><br>
+                     Find a Show! Music and Concert Information </a>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="row text-center" id="connectMe">
+            <div class="col col-lg-12">
+                <h1 class="text-center"> Connect with Patrick on social media </h1>
+            </div>
+        </div>
+        <div class="row text-center connectbuttons">
+            <div class="col col-md-12 col-sm-12" id="ghbutton">
+                <a href="https://github.com/patlehmann1" class="btn btn-primary btn-lg" target="_blank" role="button" aria-disabled="true">Github</a>
+            </div>
+            <div class="col-md-12 col-sm-12" id="linkedinbutton">
+                <a href="https://www.linkedin.com/in/patlehmann" class="btn btn-primary btn-lg" target="_blank" role="button" aria-disabled="true">Linkedin</a>
+            </div>
+            <div class="col-md-12 col-sm-12" id="twitbutton">
+                <a href="https://twitter.com/blue_collar_dev" class="btn btn-primary btn-lg" target="_blank" role="button" aria-disabled="true">Twitter</a>
+            </div>
+
+
+        </div>
+
     </div>
 
-    <div class="big_box">This is a box with rounded edges.</div>
-    
-</body>
 </html>

@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Jura);
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
 nav {
   background-color: whitesmoke;
@@ -12,11 +13,15 @@ body {
 
  .navbar {
   margin-bottom: 15px;
-  font-family: jura;
+  font-family: Jura;
   background-image: url("../images/polaroid.png");
   background-repeat: repeat;
   font-weight: bold;
 } 
+
+.navbar-brand {
+  font-family: 'Press Start 2P', cursive;
+}
 
 .headshot {
   border-radius: 10px;
@@ -29,6 +34,7 @@ body {
 
 h1, h2 {
   color: #0081cc;
+  font-family: 'Press Start 2P', cursive;
 }
 
 p{
@@ -56,4 +62,8 @@ p{
 
 .connectbuttons {
   margin-bottom: 50px;
+}
+
+#connectheader{
+  margin-bottom: 20px;
 }

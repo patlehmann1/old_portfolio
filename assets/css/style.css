@@ -5,34 +5,26 @@ nav {
 }
 
 body {
-  background-color:#205761;
+  background-image: url("../images/polaroid.png");
+  background-repeat: repeat;
   font-family: Jura;
 }
 
-#whatIdo {
-  padding: 20px 0px;
-}
-
-
-.text-top {
+ .navbar {
+  margin-bottom: 15px;
   font-family: jura;
-  text-align: left;
-  border-bottom: 2px solid #00507f;
-  background-color: whitesmoke;
-  margin: 20px 0px;
+  background-image: url("../images/polaroid.png");
+  background-repeat: repeat;
   font-weight: bold;
-}
-
-#content-area {
-  background-color:whitesmoke;
-}
-
-.page-top {
-  border-bottom: 3px solid black;
-}
+} 
 
 .headshot {
   border-radius: 10px;
+  
+}
+
+#top_section{
+  margin-bottom: 50px;
 }
 
 h1, h2 {
@@ -50,35 +42,18 @@ p{
   margin-top: 50px;
 }
 
-.about-me {
-  text-align: center;
+#portthumb{
+  margin-bottom: 40px;
 }
 
-.thumbnailpic{
-  padding: 10px 0px;
-}
-
-.portfolio {
-
-  margin:10px;
-  border: 3px solid #00507f;
-  border-radius: 10px;
-  text-align: center;
-}
-
-#connectMe {
-  padding: 50px 0px;
-  text-align: center;
+.about-area {
+  padding-top: 40px;
 }
 
 #ghbutton, #linkedinbutton {
   margin-bottom: 10px;
 }
 
-#twitbutton {
-  margin-bottom: 40px;
-}
-
-.nav-item {
-
+.connectbuttons {
+  margin-bottom: 50px;
 }

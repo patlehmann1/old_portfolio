@@ -32,12 +32,12 @@ body {
   margin-bottom: 50px;
 }
 
-h1, h2, h4, h5 {
+h1, h2, h4 {
   color: #0081cc;
   font-family: 'Press Start 2P', cursive;
 }
 
-p{
+h3, h5, p{
   color:#0081cc;
   line-height: 1.6;
 }
@@ -74,3 +74,8 @@ p{
   margin: auto;
 }
 
+@media only screen and (max-width: 370px) {
+  #linkedinbutton {
+    width: 100%;
+  }
+}

@@ -9,6 +9,7 @@ body {
   background-image: url("../images/polaroid.png");
   background-repeat: repeat;
   font-family: Jura;
+  font-weight: bold;
 }
 
  .navbar {
